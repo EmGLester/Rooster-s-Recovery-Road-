@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { SheltersComponent } from './shelters/shelters.component';
+import { PostsComponent } from './shelters/posts/posts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SheltersComponent
+    SheltersComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule
